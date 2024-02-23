@@ -1,0 +1,30 @@
+analyst@5a0826ba92e9:~$ pwd
+/home/analyst
+analyst@5a0826ba92e9:~$ ls
+notes  reports  temp
+analyst@5a0826ba92e9:~$ mkdir logs
+analyst@5a0826ba92e9:~$ ls
+logs  notes  reports  temp
+analyst@5a0826ba92e9:~$ rmdir temp
+analyst@5a0826ba92e9:~$ ls
+logs  notes  reports
+analyst@5a0826ba92e9:~$ cd /home/analyst/notes  
+analyst@5a0826ba92e9:~/notes$ pwd
+/home/analyst/notes
+analyst@5a0826ba92e9:~/notes$ ls
+Q3patches.txt  tempnotes.txt
+analyst@5a0826ba92e9:~/notes$ mv Q3patches.txt /home/analyst/reports
+analyst@5a0826ba92e9:~/notes$ cd /home/analyst/reports
+analyst@5a0826ba92e9:~/reports$ ls
+Q1patches.txt  Q2patches.txt  Q3patches.txt
+analyst@5a0826ba92e9:~/reports$ cd /home/analyst/notes
+analyst@5a0826ba92e9:~/notes$ pwd
+/home/analyst/notes
+analyst@5a0826ba92e9:~/notes$ ls
+tempnotes.txt
+analyst@5a0826ba92e9:~/notes$ rm tempnotes.txt
+analyst@5a0826ba92e9:~/notes$ ls
+analyst@5a0826ba92e9:~/notes$ touch tasks.txt
+analyst@5a0826ba92e9:~/notes$ ls
+tasks.txt
+analyst@5a0826ba92e9:~/notes$ nano tasks.txt
